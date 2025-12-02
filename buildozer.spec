@@ -10,11 +10,13 @@ requirements = python3, kivy==2.3.1, android
 orientation = portrait
 fullscreen = 0
 
-# إعدادات NDK و SDK الصحيحة
+# إعدادات NDK و SDK و Build Tools الصحيحة والمستقرة
 android.ndk = 25b 
 android.api = 32
 android.sdk = 32
+android.build_tools = 33.0.2
 
+# إعدادات متقدمة أخرى
 android.minapi = 21
 android.archs = armeabi-v7a, arm64-v8a
 android.permissions = INTERNET, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
